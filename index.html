@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Voting Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Voting Page</h1>
+    <form id="voteForm">
+      <label for="userId">Enter your ID:</label>
+      <input type="text" id="userId" name="userId" required />
+
+      <h2>President</h2>
+      <label><input type="radio" name="President" value="Donald Truck"> Donald Truck</label><br>
+      <label><input type="radio" name="President" value="Darock Obama"> Darock Obama</label><br>
+
+      <h2>Vice President</h2>
+      <label><input type="radio" name="Vice President" value="Inday Salya"> Inday Salya</label><br>
+      <label><input type="radio" name="Vice President" value="Gen. Torbs"> Gen. Torbs</label><br>
+
+      <h2>Treasurer</h2>
+      <label><input type="radio" name="Treasurer" value="Darnah Visaya"> Darnah Visaya</label><br>
+      <label><input type="radio" name="Treasurer" value="Johncuh Magaling"> Johncuh Magaling</label><br>
+
+      <h2>Secretary</h2>
+      <label><input type="radio" name="Secretary" value="Taiga Sulat"> Taiga Sulat</label><br>
+      <label><input type="radio" name="Secretary" value="Journa Lisem"> Journa Lisem</label><br>
+
+      <h2>PIO</h2>
+      <label><input type="radio" name="PIO" value="Isah Gadmouh"> Isah Gadmouh</label><br>
+      <label><input type="radio" name="PIO" value="Veenahrat Fukiko"> Veenahrat Fukiko</label><br>
+
+      <button type="submit">Submit Vote</button>
+    </form>
+
+    <a href="dashboard.html">Go to Dashboard</a>
+  </div>
+
+  <div id="toast"></div>
+  <script src="voting.js"></script>
+</body>
+</html>
